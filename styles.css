@@ -14,10 +14,14 @@ nav {
     justify-content: center;
 }
 
-li {
+.nav-li {
     list-style: none;
     display: inline;
     margin-right: 20px;
+}
+
+li {
+    list-style: none;
 }
 
 ul {
@@ -27,4 +31,86 @@ ul {
 a {
     text-decoration: none;
     color: black;
+}
+
+figure {
+    width: 200px;
+    height: 200px;
+    display: inline;
+}
+
+img {
+    width: 200px;
+    height: 200px;  
+}
+
+aside {
+    width: 30vw;
+    background-color: aqua;
+    text-align: center;
+}
+
+main {
+    display:flex;
+}
+
+#about-me{
+    width: 70vw;
+    background-color: blueviolet;
+    text-align: center;
+}
+
+.sobre-mi {
+    padding-top: 40px;
+}
+
+.name {
+    padding: 15px;
+}
+
+.quien-soy {
+    padding-top: 20px;
+}
+
+.skill-h2 {
+    list-style: none;
+    padding: 1px;
+    font-size: 16px;
+}
+aside h2 {
+    font-size: 20px
+}
+
+#proyects {
+    text-align: center;
+    background-color: darkcyan;
+}
+
+.proyect-h2 {
+    padding: 30px;
+}
+
+footer {
+    width: 100vw;
+    height: 30vh;
+    background-color: forestgreen;
+    text-align: center;
+    display: flex;
+}
+
+footer h2 {
+    padding: 20px;
+    position:static ;
+}
+
+.personal-info {
+    margin: 0 10px;
+}
+
+.socialmedia {
+    padding: 0 20px;
+}
+
+.footer-li {
+    padding-top: 5px;
 }
