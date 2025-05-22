@@ -33,84 +33,58 @@ a {
     color: black;
 }
 
-figure {
-    width: 200px;
-    height: 200px;
-    display: inline;
+#about-me {
+    display: flex;
 }
 
-img {
-    width: 200px;
-    height: 200px;  
-}
-
-aside {
-    width: 30vw;
+#skills {
     background-color: aqua;
     text-align: center;
 }
 
-main {
-    display:flex;
+.portatil {
+    width: 200px;
+    height: 200px;
 }
 
-#about-me{
-    width: 70vw;
-    background-color: blueviolet;
+.skills-li {
+    list-style: none;
+}
+
+#me {
+    background-color: brown;
     text-align: center;
 }
 
-.sobre-mi {
-    padding-top: 40px;
-}
-
-.name {
-    padding: 15px;
-}
-
-.quien-soy {
+#me h2,p {
     padding-top: 20px;
 }
 
-.skill-h2 {
-    list-style: none;
-    padding: 1px;
-    font-size: 16px;
-}
-aside h2 {
-    font-size: 20px
-}
-
 #proyects {
+    width: 100vw;
     text-align: center;
-    background-color: darkcyan;
 }
 
-.proyect-h2 {
-    padding: 30px;
+#proyects h2 {
+    padding: 20px;
+    background-color: yellow;
+}
+
+.footer-personal-li{
+    list-style: none;
 }
 
 footer {
-    width: 100vw;
-    height: 30vh;
-    background-color: forestgreen;
-    text-align: center;
     display: flex;
+    background-color: antiquewhite;
 }
 
-footer h2 {
-    padding: 20px;
-    position:static ;
-}
-
-.personal-info {
-    margin: 0 10px;
-}
-
-.socialmedia {
+footer > section {
     padding: 0 20px;
+    background-color: gray;
+    margin: 5px 20px;
 }
 
-.footer-li {
-    padding-top: 5px;
+.footer-personal-li, .socialmedia-li{
+    padding: 2px;
 }
