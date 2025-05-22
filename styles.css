@@ -88,3 +88,15 @@ footer > section {
 .footer-personal-li, .socialmedia-li{
     padding: 2px;
 }
+
+.proyect-in-section {
+    display: flex;
+    justify-content: center;
+}
+
+.proyects-articles {
+    width: 150px;
+    height: 250px;
+    background-color: teal;
+    margin: 5px 15px;
+}
