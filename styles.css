@@ -35,11 +35,15 @@ a {
 
 #about-me {
     display: flex;
+    width: 100vw;
+    
 }
 
 #skills {
-    background-color: aqua;
+    background-color: #002e2c;
     text-align: center;
+    width: 30vw;
+    color: white;
 }
 
 .portatil {
@@ -52,8 +56,10 @@ a {
 }
 
 #me {
-    background-color: brown;
+    background-color: #035e7b;
     text-align: center;
+    width: 70vw;
+    color: white;
 }
 
 #me h2,p {
@@ -67,7 +73,7 @@ a {
 
 #proyects h2 {
     padding: 20px;
-    background-color: yellow;
+    /* background-color: yellow; */
 }
 
 .footer-personal-li{
@@ -81,7 +87,7 @@ footer {
 
 footer > section {
     padding: 0 20px;
-    background-color: gray;
+    /* background-color: gray; */
     margin: 5px 20px;
 }
 
@@ -100,3 +106,34 @@ footer > section {
     background-color: teal;
     margin: 5px 15px;
 }
+
+#me p {
+    margin-bottom: 30px;
+}
+
+
+
+#skills h2 {
+    padding: 25px 0;
+}
+
+#proyects {
+    background-color: whitesmoke;
+}
+
+header {
+    width: 100vw;
+    height: 40vh;
+    overflow: hidden;
+}
+
+header img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+footer section h2 {
+    padding: 40px 0 20px 0;
+}
+
