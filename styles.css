@@ -98,13 +98,15 @@ footer > section {
 .proyect-in-section {
     display: flex;
     justify-content: center;
+    margin-bottom: 30px;
 }
 
 .proyects-articles {
-    width: 150px;
-    height: 250px;
-    background-color: teal;
+    width: 20vw;
+    background-color: gray;
     margin: 5px 15px;
+    border-radius: 15px;
+    box-shadow: 10px 10px 12px 0 rgb(161, 161, 161);
 }
 
 #me p {
@@ -137,3 +139,24 @@ footer section h2 {
     padding: 40px 0 20px 0;
 }
 
+.name {
+    text-align: center;
+    padding: 25px;
+    background-color: black;
+    color: white;
+    text-shadow: 0 0 10px whitesmoke;
+}
+
+.proyects-articles img {
+    width: 100%;
+}
+
+
+.proyects-articles button{
+    background-color: #035e7b;
+    border: 1px solid #353e41;
+    border-radius: 15px;
+    padding: 10px;
+    font-size: 20px;
+    margin: 15px 0;
+}
