@@ -99,12 +99,16 @@ footer > section {
     display: flex;
     justify-content: center;
     margin-bottom: 30px;
+    max-width: 80%;
+    margin-inline: auto;
+    flex-wrap: wrap;
+    gap: 25px;
 }
 
 .proyects-articles {
+    min-width: 250px;
     width: 20vw;
     background-color: gray;
-    margin: 5px 15px;
     border-radius: 15px;
     box-shadow: 10px 10px 12px 0 rgb(161, 161, 161);
 }
